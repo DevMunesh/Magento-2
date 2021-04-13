@@ -1,5 +1,7 @@
 This module creates a log whenever the price of a product is changed from Magento Backend (Admin).
 
+**Note:** Make sure to keep the module directory under "magento_root/app/code/DevMunesh/". -- here 'DevMunesh' is the vendor name.
+
 The log mentions the following:
 1. ID and SKU of the product (whose price has been changed).
 2. Last price and New price
