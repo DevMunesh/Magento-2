@@ -45,7 +45,7 @@ class CreateLog implements ObserverInterface
         return $this->_authSession->getUser()->getUserName();
     }
 
-    // funtion to get current store time
+    // function to get current store time
     public function getCurrentTime() {
         return $this->_date->gmtDate();
     }
